@@ -15,15 +15,18 @@ HTTP server:
    
 *Docker is needed to run the container for the service*  
 This project folder can be retrieved from GitHub.  
-
+  
+THe flag is in the format CNETF{____}    
+When you get the flag the challenge is completed.  
+  
 ### Hints  
-1. Check out this cool text for robots
-2. For the second part, look at HTTP headers. The name of this puzzle is also a hint itself!
-
+1. Check out this cool text for robots  
+2. For the second part, look at HTTP headers. The name of this puzzle is also a hint itself!  
+  
 ### Deployment
 
 Deploy service to challenge service server and run ./build.sh.  
-Use ./test-server.sh to verify important links are up and viewable.  
+Use ./test-server.sh to verify important links are up and viewable. (Note, this practically gives you the answer)  
 
 ## Solution
   
@@ -47,5 +50,5 @@ Additionally, `/robots.txt` plays a part as well.
 
 Should yield the below:
 
-Flag is `c1X5gAIm3ZLMIBgqfH5Rmq`  
-Key is  `CNETF{D0MA1N_FR0NT1NG}`  
+Flag is `CNETF{D0MA1N_FR0NT1NG}`   
+Key is  `c1X5gAIm3ZLMIBgqfH5Rmq`  
