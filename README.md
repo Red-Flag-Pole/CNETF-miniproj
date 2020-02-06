@@ -1,7 +1,7 @@
 # CNETF Mini Project
 Created for the CNETF module's mini project, Network Systems & Security, Ngee Ann Polytechnic  
  
-  
+Test out your skills of inspecting the security of a Nginx web server. Find the secret host and the flag.  
   
 ## Ghost ship
 
@@ -17,7 +17,7 @@ HTTP server:
 This project folder can be retrieved from GitHub.  
   
 THe flag is in the format CNETF{____}    
-When you get the flag the challenge is completed.  
+When you get the flag this activity is completed.  
   
 ### Hints  
 1. Check out this cool text for robots  
@@ -25,8 +25,22 @@ When you get the flag the challenge is completed.
   
 ### Deployment
 
-Deploy service to challenge service server and run ./build.sh.  
-Use ./test-server.sh to verify important links are up and viewable. (Note, this practically gives you the answer)  
+Deploy service to challenge service server and run ```sudo ./build.sh```.  
+Use ```./test-server.sh``` to verify important links are up and viewable. (Note, this practically gives you the answer)  
+  
+```
+$ # If on an Ubuntu distribution
+$ apt-get install git docker
+$ git clone https://github.com/Red-Flag-Pole/CNETF-miniproj.git
+$ cd CNETF-miniproj/service
+$ chmod 744 build.sh
+$ sudo ./build.sh
+
+$ # Enter ‘D’ at the last command to decode the secret and get the flag
+$ # Note: This will show URLs and steps to finish the activity
+$ chmod 744 test-server.sh
+$ ./test-server.sh
+```   
 
 ## Solution
   
