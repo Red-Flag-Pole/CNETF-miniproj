@@ -9,7 +9,7 @@ We have found the HTTP server that the botnet is using. Find the secret
 that they are hiding. Decrypt and decode the secret and we can begin to bring down their whole operation.  
   
 HTTP server:  
-```http://127.0.0.1:13008```  
+```http://127.0.0.1:13008```  (after starting the Docker container)
   
 **NO NMAP, DNS OR bruteforce needed**  
    
@@ -30,7 +30,7 @@ Use ./test-server.sh to verify important links are up and viewable. (Note, this 
 
 ## Solution
   
-Nginx reveals own configuration under `/config/` (Done intentionally). THis is known by viewing the robots.txt file.  
+Nginx reveals own configuration under `/config/` (Done intentionally). This is known by viewing the robots.txt file.  
   
 nginx.conf shows a second virtual host / server. This is the one we will be interested in.   
   
