@@ -3,6 +3,9 @@ Created for the CNETF module's mini project, Network Systems & Security, Ngee An
  
 Test out your skills of inspecting the security of a Nginx web server. Find the secret host and the flag.  
   
+Website Domain Fronting  
+  
+
 ## Ghost ship
 
 We have found the HTTP server that the botnet is using. Find the secret 
@@ -37,6 +40,7 @@ $ chmod 744 build.sh
 $ sudo ./build.sh
 
 $ # Enter ‘D’ at the last command to decode the secret and get the flag
+$ # This step is meant to test every URL is working and the flag can be found
 $ # Note: This will show URLs and steps to finish the activity
 $ chmod 744 test-server.sh
 $ ./test-server.sh
